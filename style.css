@@ -1,0 +1,77 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'josefinSans', arial, sans-serif;
+  margin: 2em;
+  background-color: #faf7f2;
+}
+
+@font-face {
+  font-family: "josefinSans";
+  src: url("https://cdn.glitch.com/61b1704f-2f4b-4249-89f1-d829a1ba27e0%2FJosefinSans-Regular.ttf?v=1617838476445");
+}
+
+@font-face {
+  font-family: "josefinSansBold";
+  src: url("https://cdn.glitch.com/61b1704f-2f4b-4249-89f1-d829a1ba27e0%2FJosefinSans-Bold.ttf?v=1617838861745");
+}
+
+@font-face {
+  font-family: "arialHollow";
+  src: url("https://cdn.glitch.com/61b1704f-2f4b-4249-89f1-d829a1ba27e0%2FArialic%20Hollow.ttf?v=1617839759503");
+}
+
+@font-face {
+  font-family: "gOpen";
+  src: url("https://cdn.glitch.com/61b1704f-2f4b-4249-89f1-d829a1ba27e0%2FGLOUCEST.TTF?v=1617839879718");
+}
+
+.topnav {
+  background-color: #e9eef2;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #66785f;
+  font-size: 24px;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-family: 'josefinSansBold', Trebuchet MS;
+}
+
+.topnav a:hover {
+  background-color: #d9d9d9;
+  color: #66785f;
+}
+
+.pages a {
+  float: right;
+  color: #bf8b82;
+  font-size: 23px;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-family: 'josefinSans', Trebuchet MS;
+}
+
+.pages a:hover {
+  background-color: #d9d9d9;
+  color: #bf8b82;
+}
+
+h1 {
+  color: #66785f;
+  font-family: 'arialHollow', Trebuchet MS;
+  font-size: 72px;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.logo, .tagline, .form {
+  text-align: center;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>The Home Cook</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="topnav">
+      <!--<div class="image-txt-container">
+        <img
+          src="https://cdn.glitch.com/61b1704f-2f4b-4249-89f1-d829a1ba27e0%2FUntitled%20design.png?v=1617841829203"
+          width="50"
+          height="50"
+        />
+      </div>-->
+      <a class="active" href="https://thehomecook.glitch.me">THE HOME COOK</a>
+      <div class="pages">
+        <a href="https://echoar.glitch.me">EchoAR</a>
+        <a href="https://dessert-recipes.glitch.me">Desserts</a>
+        <a href="https://lunch-dinner.glitch.me">Lunch & Dinner</a>
+        <a href="https://breakfast-recipes.glitch.me">Breakfast</a>
+        <a href="https://resources-and-tips.glitch.me">Resources & Tips</a>
+      </div>
+    </div>
+
+    <h1>
+      The Home Cook
+    </h1>
+    <p class="tagline">
+      Learn more about cooking and baking, regardless of skill level! We offer
+      recipes, other resources, and tips for home cooks.
+    </p>
+    <p class="logo">
+      <img src="https://cdn.glitch.com/61b1704f-2f4b-4249-89f1-d829a1ba27e0%2FUntitled%20design.png?v=1617841829203">
+    </p>
+    <br />
+    <p>
+      Take this survey to get personalized recipe recommendations!
+    </p>
+
+     <form name="form1" id="form1" class="form">
+        Diet:
+        <select name="subject" id="subject">
+            <option value="" selected="selected">Select your diet</option>
+        </select>
+        <br /><br />
+        Allergies:
+        <select name="topic" id="topic">
+            <option value="" selected="selected">Please select diet first</option>
+        </select>
+        <br /><br />
+        Cooking Skill Level:
+        <select name="chapter" id="chapter">
+            <option value="" selected="selected">Please select allergies first</option>
+        </select>
+        <br /><br />
+        Meal:
+        <select name="meal" id="meal">
+            <option value="" selected="selected">Please select cooking skill level first</option>
+        </select>
+        <br /><br />
+        <button id="submitButton">Submit</button>
+    </form>
+        <!--<button id="submitButton">Submit</button>-->
+      <p>
+        <span id = "display"></span>
+      </p>
+    
+  </body>
+</html>
